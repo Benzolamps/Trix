@@ -22,7 +22,7 @@ public class MainFrame extends JFrame {
 		setVisible(true);
 	}
 
-	public static void main(String[] args) throws ClassCastException {
+	public static void main(String[] args) {
 		// TODO Auto-generated method stub
 		MainFrame.setDefaultLookAndFeelDecorated(true);
 		new MainFrame().setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
