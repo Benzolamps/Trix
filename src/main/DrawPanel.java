@@ -102,6 +102,7 @@ public class DrawPanel extends JPanel implements KeyListener, MouseListener {
 		timer2.start();
 	}
 
+	@Override
 	public void paintComponent(Graphics g) {
 		super.paintComponents(g);
 		Graphics2D g2D = (Graphics2D) g;
