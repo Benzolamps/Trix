@@ -14,7 +14,7 @@ public class MainFrame extends JFrame {
 	DrawPanel draw = new DrawPanel();
 
 	public MainFrame() {
-		super("¶íÂŞË¹·½¿é");
+		super("ä¿„ç½—æ–¯æ–¹å—");
 		setResizable(false);
 		setSize(600, 442);
 		addKeyListener(draw);
@@ -23,7 +23,6 @@ public class MainFrame extends JFrame {
 	}
 
 	public static void main(String[] args) {
-		// TODO Auto-generated method stub
 		MainFrame.setDefaultLookAndFeelDecorated(true);
 		new MainFrame().setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
 	}

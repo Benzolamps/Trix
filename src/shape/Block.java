@@ -9,6 +9,7 @@ import java.awt.Rectangle;
  *
  */
 public class Block extends Rectangle {
+
 	private static final long serialVersionUID = -9070458308582853261L;
 
 	private Color color;
